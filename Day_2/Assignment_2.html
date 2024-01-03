@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title> Registration form </title>
+    </head>
+    <body>
+        <h1> <i> Canine Registration Form </i> </h1>
+        <form action="/action_page.php">
+            <fieldset>
+            <legend> <h2 style="color: brown;"> Furbaby Bio </h2> </legend>
+            <div>
+                <label for="name"> <b> Dog Name </b> </label>
+                <input id="name" 
+                name="name" type="text"
+                placeholder="Enter the name here" required/>
+            </div>
+
+            <div>
+                <label> <b> Gender </b> </label> <br>
+                <label for="male"> Male </label>
+                <input id="male" type="radio" 
+                name="gender" value="male"/>
+
+                <label for="female"> Female </label>
+                <input id="female" type="radio"
+                name="gender" value="female"/>
+            </div>
+
+            <div>
+                <label for="breed"> <b> Breed </b> </label><br>
+                <select id="breed" name="Breed">
+                    <option> <i> Select One </i> </option>
+                    <option>Indie</option>
+                    <option>syberian Husky</option>
+                    <option>ROttwiller</option>
+                    <option>Corgi</option>
+                    <option>Dalmation</option>
+                </select>
+                    <br>
+
+            </div>
+            
+            <div>
+                <label for="city"> <b> City </b> </label><br>
+                <select id="city" name="city">
+                    <option>Select One</option>
+                    <option>Pune</option>
+                    <option>Mumbai</option>
+                    <option>Banglore</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="color"> <b> color </b> </label> <br>
+                <input id="color" type="color" name="color">
+                <input id="color" type="color" name="color">
+                <input id="color" type="color" name="color">
+            </div>
+
+            <div>
+                <label for="operate"> <b> Sterlised </b> </label> <br>
+                <label for="yes">Yes</label>
+                <input id="yes" type="radio" name="operate" value="yes"
+
+                <label for="no">No</label>
+                <input id="no" type="radio" name="operate" value="no"
+
+            </div>
+
+            <div>
+                <label for="vaccine"> <b> vaccinated </b></label>
+                <input id="vaccine" type="checkbox" name="vaccine">
+            </div>
+
+            <div>
+                <label for="disease"> <b> Any Disease</b></label>
+                <input id="disease" name="disease" placeholder="mention here"
+                required>
+            </div>
+
+            <div>
+                <label for="location"> <b> Current Location </b></label>
+                <input id="location" name="location" required>
+            </div>
+
+            <div>
+                <input type="Submit" value="Submit"/>
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>

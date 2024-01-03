@@ -1,0 +1,39 @@
+.background {
+    background-color: #003034;
+}
+
+.form {
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: gray;
+}
+
+.form .label {
+    color: orange;
+    text-align: left;
+    width: 100px;
+    display: inline-block;
+}
+
+.form .textfield,
+.form .btn {
+    background-color: aqua;
+    color: black;
+    text-align: left;
+    width: 150px;
+    padding: 5px;
+
+}
+
+.form .field,
+.form .field-btn {
+    padding: 5px;
+
+}
+
+.form .field-btn {
+    padding-left: 110px;
+}

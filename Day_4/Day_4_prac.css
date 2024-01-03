@@ -1,0 +1,41 @@
+.parent
+{
+height: 200;
+width: 200;
+background-color: blue;
+color: aliceblue;
+position: relative;
+}
+
+.fixed
+{
+position: fixed;
+top: 100px;
+right: 100px;
+height: 50;
+width: 50;
+background-color: green;
+color: aliceblue;
+}
+
+.absolute
+{
+position: absolute;
+top: 50px;
+right: 100px;
+/* height: 50;
+width: 50; */
+background-color: orchid;
+color: aliceblue;
+}
+
+.relative
+{
+position: relative;
+top: 100px;
+left: 100px;
+/* height: 50;
+width: 50; */
+background-color: pink;
+color: aliceblue;
+}

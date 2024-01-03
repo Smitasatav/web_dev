@@ -1,0 +1,55 @@
+.background {
+    background-color: #44c3e4;
+}
+
+.form {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+
+}
+
+.field,
+.form-heading {
+    margin: 10px;
+}
+
+.form-heading {
+    color: #44c3e4;
+
+}
+
+.form .text-field,
+.form .btn {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+}
+
+.form .field {
+    padding: 5px;
+}
+
+
+.form .btn {
+    background-color: #44c3e4;
+    color: white;
+    text-align: center;
+}
+
+.form .text-field {
+    color: #C1C2C0;
+    border-color: #C1C2C0;
+}
+
+.form .text-field:hover {
+    border: 1px solid orange;
+}
+
+.form .text-field:focus {
+    border: 1px solid green;
+}

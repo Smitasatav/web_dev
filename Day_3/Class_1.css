@@ -1,0 +1,33 @@
+div
+{
+    color: red;
+}
+
+#red_div
+{
+background-color: bisque;
+width: 100px;
+height: 100px;
+border: 1px solid black;
+}
+
+.space
+{
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.normal
+{
+    color: brown;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.parent .child1
+{
+    color: greenyellow;
+}
+

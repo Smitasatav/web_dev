@@ -1,0 +1,28 @@
+.Facebook {
+    background-color: gainsboro;
+
+}
+
+.Instagram {
+    background-color: navajowhite;
+
+}
+
+.Twitter {
+    background-color: bisque;
+
+}
+
+.container {
+    padding: 10px;
+}
+
+.content {
+    width: 218px;
+    height: 310px;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    align-content: center;
+
+}

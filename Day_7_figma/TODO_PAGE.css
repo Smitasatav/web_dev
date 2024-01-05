@@ -1,0 +1,24 @@
+.app-tile
+{
+    width: 414px;
+    height: 896px;
+    background-color: #D6D7EF;
+    border: 1px solid black;
+}
+.app-tile .app-bar
+{
+    width: 414px;
+    height: 118px;
+    background-color: #9395D3;
+}
+.app-tile .app-name
+{
+    width: 131px;
+    height: 34.264px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    
+}

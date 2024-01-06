@@ -4,16 +4,14 @@
     </head>
     <body>
         
-            <input id="value1" placeholder="Enter your value"/>
-            <input id="value2" placeholder="Enter your value"/>
-            <button onclick="add()">Add</button>
-            <button onclick="sub()"> Sub</button>
-            <button onclick="mul()"> Mul</button>
-            <button onclick="div()">Div</button>
-            <h3>Total= <span id="total"></span></h3>
-            <h3>Sub= <span id="sub"></span></h3>
-            <h3>Mul= <span id="mul"></span></h3>
-            <h3>Div= <span id="div"></span></h3>
+            <input id="value1" placeholder="Enter 1st value"/>
+            <input id="value2" placeholder="Enter 2nd value"/>
+            <button onclick="calculator('add')">Add</button>
+            <button onclick="calculator('sub')">sub</button>
+            <button onclick="calculator('mul')">mul</button>
+            <button onclick="calculator('div')">div</button>
+            <button onclick="clear()">clear</button>
+            <h3 id="resulth3" style="display: none;">Result= <span id="result"></span></h3>
         </form>
         <script src="calculator.js"></script>
     </body>

@@ -1,24 +1,29 @@
-function add() 
+function getValue(id)
 {
-    let value1=parseInt(document.getElementById("value1").value)
-    let value2=parseInt(document.getElementById("value2").value)
-    document.getElementById("total").innerText=value1 + value2  
+    return parseInt(document.getElementById(id).value)
 }
-function sub() 
+function setValue(value)
 {
-    let value1=parseInt(document.getElementById("value1").value)
-    let value2=parseInt(document.getElementById("value2").value)
-    document.getElementById("sub").innerText= value1 - value2
+    document.getElementById("result").innerText=value
 }
-function mul()
+
+function calculator(opr)
 {
-    let value1=parseInt(document.getElementById("value1").value)
-    let value2=parseInt(document.getElementById("value2").value)
-    document.getElementById("mul").innerText= value1 * value2
+    document.getElementById("resulth3").style.display="block"
+    if (opr=="add")
+    setValue( getValue("value1")+ getValue("value2"))
+    if (opr=="sub")
+    setValue( getValue("value1")- getValue("value2"))
+    if(opr=="mul")
+    setValue( getValue("value1")* getValue("value2"))
+    if(opr=="div")
+    setValue( getValue("value1")/ getValue("value2"))
 }
-function div()
+
+function clear()
 {
-    let value1=parseInt(document.getElementById("value1").value)
-    let value2=parseInt(document.getElementById("value2").value)
-    document.getElementById("div").innerText= value1 / value2
+  document.getElementById("value1").value=""  
+  document.getElementById("value2").value=""
+  document.getElementById("resulth3").style.display="none"
 }
+

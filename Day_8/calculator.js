@@ -20,10 +20,14 @@ function calculator(opr)
     setValue( getValue("value1")/ getValue("value2"))
 }
 
-function clear()
+function clearCalc()
 {
   document.getElementById("value1").value=""  
   document.getElementById("value2").value=""
   document.getElementById("resulth3").style.display="none"
 }
 
+function highlight()
+{
+    document.getElementById("resulth3").style.border="1px solid red" 
+}

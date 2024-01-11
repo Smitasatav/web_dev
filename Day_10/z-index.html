@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Z-Index</title>
+    <style>
+    .container
+    {
+        position: relative;
+    }
+    .sun, .grass, .sky
+    {
+        position: absolute;
+    }
+
+    .sun{
+        top: 50px; 
+        z-index: 3; 
+        left: 50px; 
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+    .grass
+    {
+        top: 180px;
+        z-index: 3;
+
+    }
+    .sky
+    {
+        top: 0;
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+       <div class="sun">
+
+       </div>
+
+        <img src="https://images.unsplash.com/photo-1597040827713-24d4c7e4b0e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JlZW4lMjBncmFzc3xlbnwwfHwwfHx8MA%3D%3D"
+            width="200" height="100" class="grass" />
+
+        <div class="sky">
+
+        </div>
+    </div>
+</body>
+
+</html>

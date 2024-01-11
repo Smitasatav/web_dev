@@ -1,0 +1,99 @@
+.main-container
+{
+    padding: 10px;
+}
+.title-container
+{
+    background-color:orange;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-bar
+{
+    background-color: lightgrey;
+    height: 70px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar > div
+{
+background-color: white;
+border: 1px solid black;
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+}
+.tile-container
+{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.tile-container > div 
+{
+display: flex;
+flex: 1;
+background-color: white;
+margin: 10px;
+padding: 10px;
+flex-direction: column;
+}
+.tile-img
+{
+    width: 100%;
+    height: auto;
+}
+.tile-info
+{
+    margin: 15px 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.custom-btn
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    font-weight: 700;
+}
+.footer-container
+{
+    background-color:orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}

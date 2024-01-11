@@ -9,6 +9,7 @@ function setValue(value)
 
 function calculator(opr)
 {
+
     document.getElementById("resulth3").style.display="block"
     if (opr=="add")
     setValue( getValue("value1")+ getValue("value2"))

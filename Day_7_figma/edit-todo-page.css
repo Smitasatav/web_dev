@@ -1,0 +1,116 @@
+.background-container {
+  width: 414px;
+  height: 896px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.app-bar {
+  background-color: #9395d3;
+  display: flex;
+  flex: 0.15;
+  flex-direction: column;
+  padding: 11px 21px;
+}
+.status-bar {
+  display: flex;
+}
+.left-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.right-section > img {
+  padding-left: 4px;
+}
+.title-bar {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  padding: 13px 5px;
+}
+.title-text {
+  color: #fff;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 20px;
+  font-size: 19;
+}
+.main-container {
+  display: flex;
+  flex: 0.85;
+  padding: 23px 25px;
+  flex-direction: column;
+  background: #d6d7ef;
+}
+.main-container-text {
+  color: #8b8787;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.line-under-text {
+  width: 360px;
+  height: 1px;
+  background-color: #8b8787;
+  margin-top: 6px;
+}
+.main-container-text-detail {
+  color: #8b8787;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 45px;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.left-btn {
+  /* display: flex;
+  flex: 1;
+  justify-content: flex-start; */
+  border-radius: 15px;
+  background: #9395d3;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18;
+  margin-right: 73px;
+}
+.right-btn {
+  /* display: flex;
+  flex: 1;
+  justify-content: flex-end; */
+  border-radius: 15px;
+  background: #9395d3;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18;
+  margin-right: 73px;
+}

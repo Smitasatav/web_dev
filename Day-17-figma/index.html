@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Todo page</title>
+    <link rel="stylesheet" href="todo-app.css" />
+  </head>
+  <body>
+    <!-- background comes here -->
+    <div class="background-container">
+      <!-- app bar comes here -->
+      <div class="app-bar">
+        <!-- status bar comes here -->
+        <div class="status-bar">
+          <div class="left-section">9:41</div>
+          <div class="right-section">
+            <img src="./icons/network-signal.svg" />
+            <img src="./icons/wifi-signal.svg" />
+            <img src="./icons/battary.svg" />
+          </div>
+        </div>
+        <div class="todo-page-title-bar">
+          <div class="title-left-section">
+            <img src="./icons/turn-back.svg" id="turn-back" />
+            <div class="app-name" id="nav-title">TODO APP</div>
+          </div>
+          <div class="title-right-section" id="calender">
+            <img src="./icons/calander.svg" class="calander" />
+          </div>
+        </div>
+      </div>
+
+      <!-- content div -->
+      <div class="todo-center-container" id="todo-container">
+        <div class="todo-list-container" id="todo-list"></div>
+
+        <div class="add-todo-button">
+          <button class="button" onclick="showForm()">+</button>
+        </div>
+      </div>
+      <div class="add-page-main-container" id="todo-form">
+        <form onsubmit="save()">
+          <div class="add-main-container-text">Title</div>
+          <div>
+            <input type="text" name="title" id="title" required />
+          </div>
+          <div class="add-main-container-text-detail">Detail</div>
+          <div>
+            <input type="text" name="detail" id="detail" required />
+          </div>
+          <div id="add-btn-container">
+            <button id="add-btn">ADD</button>
+          </div>
+          <div class="button-container" id="edit-btn-container">
+            <button class="btn">Update</button>
+            <button class="btn" onclick="undoTask()">Delete</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- footer container -->
+      <div class="footer-container">
+        <div class="left-footer">
+          <div><img src="./icons/vector.svg" /></div>
+          <div class="footer-text">All</div>
+        </div>
+        <div class="right-footer">
+          <div><img src="./icons/tick.svg" /></div>
+          <div class="footer-text">Completed</div>
+        </div>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
